@@ -1,0 +1,32 @@
+#main_heading{
+  text-align: center;
+}
+.todo_style{
+  display: grid;
+  grid-template-columns: 200px 150px 100px;
+  column-gap: 10px;
+  row-gap: 10px;
+  margin: 10px;
+  align-items: center;
+}
+#todo_input , #todo_date{
+  font-size: 15px;
+  padding: 10px 5px;
+}
+#todo_add{
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+#todo_delete{
+  background-color: rgb(215, 37, 37);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+  
+}
