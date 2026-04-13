@@ -29,7 +29,7 @@ function displayItem() {
         element +
         `
     <span>${item}</span>
-    <span>${dueDate}</span>
+    <span>${dueDate || new Date().toLocaleDateString()}</span>
     <button id="todo_delete" onclick="todoList.splice(${i}, 1);
     displayItem();
     ">Delete</button>
